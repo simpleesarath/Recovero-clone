@@ -56,7 +56,7 @@ Open your web browser and go to http://localhost:3000 to access the Recovero web
 **demo:** If you have any queires regrading the products or service feel free to use demo.<br/><hr>
 
 
-**<h2>Contributing*</h2>**<br/>
+**<h2>Contributing</h2>**<br/>
 
 We welcome contributions from the open-source community. If you'd like to contribute to Recovero, please follow these guidelines:<br/>
 
