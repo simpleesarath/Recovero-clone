@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovero</title>
+</head>
+<body>
+    
+    <h1>Congrats! Now you are recovero member welcome to the page</h1>
+    <div id="welcome-message"><p></p></div>
+   
+    <script>
+        // Access the query parameters from the URL
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        // Get the values of the 'email' and 'password' parameters
+        const email = urlParams.get('email');
+        const password = urlParams.get('password');
+
+        // Display a welcome message
+        const welcomeMessage = document.getElementById('welcome-message');
+        welcomeMessage.innerHTML = `<p>Welcome, ${email}!</p>`;
+    </script>
+
+
+</body>
+</html>
